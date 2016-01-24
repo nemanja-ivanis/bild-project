@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+
+
+.main{
+
+    @extend .container;
+    padding-left:0px;
+    padding-right:0px;
+    margin:0 auto;
+    max-width:1024px;
+}
+
+.one-third{
+
+    @extend .col-md-4;
+    padding-left:0px;
+}
+
+
+.one-fourth{
+
+    @extend .col-md-3;
+    
+}
+
+.three-thirds{
+
+    @extend .col-md-9;
+    
+}
+
+.navbar{
+
+    border:0;
+}
+
+
+.navigation{
+
+    @extend .navbar-default;
+    background-color:white ; 
+    border-color: white; 
+}
+
+.my-nav{
+
+    @extend .navbar-nav;
+    float:right;
+}
+
+.my-nav-collapse{
+
+    @extend .navbar-collapse;
+    padding-right:0;
+}
+
+.nav > li > a{
+
+    padding:0px;
+}
+
+body{
+
+
+    background:#e9f7fe;
+}
+
+
+header{	
+
+	width: 100%;
+    height: $header-height;
+    background: #ffffff;
+    position: relative;
+
+}
+
+header .logo{
+
+    padding-top: 14.5px;
+    padding-bottom: 14.5px;
+    float: left;
+}
+
+
+header nav{
+	height: $header-height;
+    float: right;
+    
+}
+
+header nav ul{
+	
+	margin:0;
+}
+
+
+header nav ul li{
+	padding-top:36.5px;
+  height: $header-height;
+  list-style: none;
+  float: left;
+  margin-left: 70px;
+}
+
+
+header nav ul li a{
+	display:block;
+	height: 100%;
+	
+    text-decoration: none;
+    color:$main-dark-blue-color !important;
+    font-family: $main-font;
+    font-size: 20px;
+    letter-spacing: .5px;
+    font-weight: 700; 
+    transition:all .2s linear;
+    -o-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+    -webkit-transition:all .2s linear;
+}
+
+header nav ul li a:hover{
+	color:$main-bright-blue-color !important;
+	border-bottom:5px solid $main-bright-blue-color;
+	text-decoration:none;
+
+}
+
+.navigation .my-nav > .active > a{
+
+    color:black !important;
+    background-color:white;
+    border-bottom:5px solid $main-dark-blue-color;
+}
+
+.navigation .my-nav > .active > a:hover{
+
+    background-color:white;
+}
+
+.navigation .my-nav > li > a:hover{
+
+    color:$main-bright-blue-color !important;
+}
+
+header nav ul .selected{
+	border-bottom:5px solid $main-dark-blue-color;
+    color: black;
+}
+
+
+
+
+

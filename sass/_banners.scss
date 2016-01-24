@@ -1,0 +1,179 @@
+
+#banners{
+	background-image:url('../images/bg_circle.png');
+	background-repeat: no-repeat;
+	background-position:right bottom;
+	margin-top: -10px;
+	background-color:#e9f7fe;
+}
+
+
+
+#banners h2{
+
+	font-family: $main-font;
+}
+
+#about h2 span{
+
+	color:$main-dark-blue-color;
+	font-weight:bold;
+}
+
+#contact h2 span{
+
+	color:$main-dark-blue-color;
+	font-weight:bold;
+}
+
+
+#news h2 span{
+
+	color:$main-dark-blue-color;
+	font-weight:bold;
+}
+
+
+.banner-text1,.banner-text2{
+	font-family: $main-font;
+	color:#b6babb;
+	margin-bottom: 50px;
+}
+
+
+
+#zoom{
+	right: 5px;
+	position: absolute;
+	bottom: 40px;
+
+}
+
+
+#about{
+
+	padding: 20px;
+}
+
+.inside-banner{
+
+	margin-bottom: 40px;
+}
+
+#contact{
+
+	padding: 20px;
+}
+
+#mail{
+
+	position: absolute;
+	right: 10px;
+	bottom: 50px;
+}
+
+#news{
+
+	padding: 20px;
+}
+
+#news h2{
+
+	margin-bottom: 30px;
+}
+
+.arrow-box {
+
+
+	border: 1px solid $main-bright-blue-color;
+	font-family: $main-font;
+	color:$main-bright-blue-color;
+	text-align:center;
+	display: inline-block;
+	position: relative;
+	background: white;
+	padding: 5px 15px 5px 15px;
+}
+.arrow-box:after,.arrow-box:before {
+
+
+	content: '';
+	display: block;  
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	margin-top: -10px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid white;
+}
+
+.arrow-box:before{
+
+	border-bottom: 13px solid transparent;
+	border-left: 13px solid solid;
+	border-right: 13px solid transparent;
+	border-top: 13px solid transparent;
+	border-left-color: $main-bright-blue-color; 
+	bottom: -23px;
+	margin-top: -13px;
+}
+
+
+#news .col-md-3{
+
+	padding-left:0px;
+}
+
+.arrow-box .day{
+	margin-bottom:0px;
+	font-size: 20px;
+	font-weight:bold;
+}
+
+.arrow-box .date{
+	font-size: 10px;
+	font-weight:normal;	
+}
+
+.news-text{
+	color:$main-dark-blue-color;
+	font-family: $main-font;	
+	font-weight:bold;
+}
+
+.news1,.news2{
+
+	overflow: hidden;
+
+}
+
+.news1{
+
+	margin-bottom: 15px;
+}
+
+#check-news{
+	border-color:$main-bright-blue-color;
+	margin-top: 30px;
+	text-align: left;
+	color:white;
+	background:$main-dark-blue-color;
+	width:100%;
+}
+
+
+#check-news span{
+
+	color:$main-bright-blue-color;
+	float:right;
+}
+
+#check-news:hover,#check-news:hover span{
+	border-color:$main-bright-blue-color;
+	background:$main-bright-blue-color;	
+	color:white;
+}

@@ -1,0 +1,28 @@
+// Import Bootstrap Compass integration
+
+@import "bootstrap-compass";
+
+
+
+// Import custom  variables
+@import "custom-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+//Import Custom Header
+@import "custom-header";
+
+//Import Custom Slider
+@import "custom-slider-section";
+
+//Import Banners
+@import "banners";
+
+//Import Footer
+@import "footer";
+
+//Import Custom Responsive
+@import "custom-responsive";
+
+
